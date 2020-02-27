@@ -20,6 +20,6 @@ final class View: SKView, SKSceneDelegate {
     }
     
     override func mouseUp(with: NSEvent) {
-        (state.currentState as! State).press.insert(convert(with.locationInWindow, from: nil), at: 0)
+        (state.currentState as! State).press.insert(with.location(in: scene!), at: 0)
     }
 }
