@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1AE6402408147600BDA566 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE63F2408147600BDA566 /* Node.swift */; };
+		CE1AE6422408152300BDA566 /* NodeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE6412408152300BDA566 /* NodeState.swift */; };
+		CE1AE644240815DE00BDA566 /* SeaState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE643240815DE00BDA566 /* SeaState.swift */; };
+		CE1AE646240815F800BDA566 /* PrepareState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE645240815F800BDA566 /* PrepareState.swift */; };
+		CE1AE6482408162D00BDA566 /* DesertState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE6472408162D00BDA566 /* DesertState.swift */; };
+		CE1AE64A2408166100BDA566 /* GreenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE6492408166100BDA566 /* GreenState.swift */; };
+		CE1AE64C2408167100BDA566 /* ForestState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE64B2408167100BDA566 /* ForestState.swift */; };
 		CE9D6B432407BC8700946A7C /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6B422407BC8700946A7C /* App.swift */; };
 		CE9D6B452407BC8700946A7C /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6B442407BC8700946A7C /* Window.swift */; };
 		CE9D6B472407BC8700946A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9D6B462407BC8700946A7C /* Assets.xcassets */; };
@@ -22,6 +29,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1AE63F2408147600BDA566 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		CE1AE6412408152300BDA566 /* NodeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeState.swift; sourceTree = "<group>"; };
+		CE1AE643240815DE00BDA566 /* SeaState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaState.swift; sourceTree = "<group>"; };
+		CE1AE645240815F800BDA566 /* PrepareState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareState.swift; sourceTree = "<group>"; };
+		CE1AE6472408162D00BDA566 /* DesertState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesertState.swift; sourceTree = "<group>"; };
+		CE1AE6492408166100BDA566 /* GreenState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenState.swift; sourceTree = "<group>"; };
+		CE1AE64B2408167100BDA566 /* ForestState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestState.swift; sourceTree = "<group>"; };
 		CE9D6B422407BC8700946A7C /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		CE9D6B442407BC8700946A7C /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		CE9D6B462407BC8700946A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,8 +86,15 @@
 				CE9D6B632407D1AB00946A7C /* PlayScene.sks */,
 				CEF4D8C12407DFB40004FAE9 /* Tiles.sks */,
 				CE9D6B422407BC8700946A7C /* App.swift */,
+				CE1AE6472408162D00BDA566 /* DesertState.swift */,
+				CE1AE64B2408167100BDA566 /* ForestState.swift */,
+				CE1AE6492408166100BDA566 /* GreenState.swift */,
+				CE1AE63F2408147600BDA566 /* Node.swift */,
+				CE1AE6412408152300BDA566 /* NodeState.swift */,
 				CE9D6B612407D0A600946A7C /* PlayScene.swift */,
 				CE9D6B582407C9CD00946A7C /* PlayState.swift */,
+				CE1AE645240815F800BDA566 /* PrepareState.swift */,
+				CE1AE643240815DE00BDA566 /* SeaState.swift */,
 				CE9D6B5A2407CAB700946A7C /* StartScene.swift */,
 				CE9D6B562407C5C300946A7C /* StartState.swift */,
 				CE9D6B5F2407CC8A00946A7C /* State.swift */,
@@ -156,14 +177,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1AE644240815DE00BDA566 /* SeaState.swift in Sources */,
+				CE1AE646240815F800BDA566 /* PrepareState.swift in Sources */,
 				CE9D6B452407BC8700946A7C /* Window.swift in Sources */,
 				CE9D6B5B2407CAB700946A7C /* StartScene.swift in Sources */,
 				CE9D6B432407BC8700946A7C /* App.swift in Sources */,
+				CE1AE6402408147600BDA566 /* Node.swift in Sources */,
 				CE9D6B572407C5C300946A7C /* StartState.swift in Sources */,
 				CE9D6B552407C33600946A7C /* View.swift in Sources */,
+				CE1AE64C2408167100BDA566 /* ForestState.swift in Sources */,
 				CE9D6B602407CC8A00946A7C /* State.swift in Sources */,
 				CE9D6B622407D0A600946A7C /* PlayScene.swift in Sources */,
 				CE9D6B592407C9CD00946A7C /* PlayState.swift in Sources */,
+				CE1AE6422408152300BDA566 /* NodeState.swift in Sources */,
+				CE1AE6482408162D00BDA566 /* DesertState.swift in Sources */,
+				CE1AE64A2408166100BDA566 /* GreenState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
