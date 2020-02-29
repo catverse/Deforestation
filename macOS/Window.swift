@@ -1,13 +1,6 @@
 import AppKit
-import SafariServices
 
 final class Window: NSWindow {
-    private weak var message: NSTextField!
-    private weak var image: NSImageView!
-    private weak var preview: NSImageView!
-    private weak var button: NSButton!
-    private let extensionId = "com.ecosia.macapp.safariAppExtension"
-    
     init() {
         super.init(contentRect: .init(x: 0, y: 0, width: 900, height: 600), styleMask: [.borderless, .miniaturizable, .resizable, .closable, .titled, .unifiedTitleAndToolbar, .fullSizeContentView], backing: .buffered, defer: false)
         minSize = .init(width: 900, height: 600)
