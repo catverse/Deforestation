@@ -10,7 +10,7 @@ final class View: SKView, SKSceneDelegate {
         super.init(frame: .zero)
         ignoresSiblingOrder = true
         
-        state = .init(states: [StartState(self), PlayState(self)])
+        state = .init(states: [StartState(self), RandomiseState(self), PlayState(self)])
         state.enter(StartState.self)
     }
     

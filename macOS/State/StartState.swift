@@ -10,6 +10,6 @@ final class StartState: State {
     
     override func control() {
         guard let _ = press.popLast() else { return }
-        stateMachine!.enter(PlayState.self)
+        stateMachine!.enter(RandomiseState.self)
     }
 }

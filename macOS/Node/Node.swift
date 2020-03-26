@@ -1,14 +1,17 @@
 import GameplayKit
 
 final class Node: GKGridGraphNode {
+    weak var scene: PlayScene!
     private(set) var state: GKStateMachine!
     
-    func configure(_ play: PlayState) {
+    required init?(coder: NSCoder) { nil }
+    override init(gridPosition: vector_int2) {
+        super.init(gridPosition: gridPosition)
         state = .init(states: [
-            DesertState(self, play: play),
-            ForestState(self, play: play),
-            GreenState(self, play: play),
-            PrepareState(self, play: play),
-            SeaState(self, play: play)])
+            DesertState(self),
+            ForestState(self),
+            GreenState(self),
+            PrepareState(self),
+            SeaState(self)])
     }
 }
