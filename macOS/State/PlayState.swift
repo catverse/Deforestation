@@ -4,6 +4,7 @@ final class PlayState: State {
     
     override func didEnter(from: GKState?) {
         super.didEnter(from: from)
+        print("play state")
     }
     
     override func control() {

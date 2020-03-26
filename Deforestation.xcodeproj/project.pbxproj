@@ -14,6 +14,7 @@
 		CE1AE6482408162D00BDA566 /* DesertState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE6472408162D00BDA566 /* DesertState.swift */; };
 		CE1AE64A2408166100BDA566 /* GreenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE6492408166100BDA566 /* GreenState.swift */; };
 		CE1AE64C2408167100BDA566 /* ForestState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE64B2408167100BDA566 /* ForestState.swift */; };
+		CE2AAA7B242CC5D7006ABEFF /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AAA7A242CC5D7006ABEFF /* String.swift */; };
 		CE8F6DF6242CB26D002CB319 /* RandomiseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F6DF5242CB26D002CB319 /* RandomiseState.swift */; };
 		CE9D6B432407BC8700946A7C /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6B422407BC8700946A7C /* App.swift */; };
 		CE9D6B452407BC8700946A7C /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6B442407BC8700946A7C /* Window.swift */; };
@@ -37,6 +38,7 @@
 		CE1AE6472408162D00BDA566 /* DesertState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesertState.swift; sourceTree = "<group>"; };
 		CE1AE6492408166100BDA566 /* GreenState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenState.swift; sourceTree = "<group>"; };
 		CE1AE64B2408167100BDA566 /* ForestState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestState.swift; sourceTree = "<group>"; };
+		CE2AAA7A242CC5D7006ABEFF /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		CE8F6DF5242CB26D002CB319 /* RandomiseState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomiseState.swift; sourceTree = "<group>"; };
 		CE9D6B422407BC8700946A7C /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		CE9D6B442407BC8700946A7C /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				CE9D6B4B2407BC8700946A7C /* Info.plist */,
 				CEF4D8C12407DFB40004FAE9 /* Tiles.sks */,
 				CE9D6B422407BC8700946A7C /* App.swift */,
+				CE2AAA7A242CC5D7006ABEFF /* String.swift */,
 				CE9D6B542407C33600946A7C /* View.swift */,
 				CE9D6B442407BC8700946A7C /* Window.swift */,
 				CE9D6B462407BC8700946A7C /* Assets.xcassets */,
@@ -218,6 +221,7 @@
 				CE9D6B592407C9CD00946A7C /* PlayState.swift in Sources */,
 				CE1AE6422408152300BDA566 /* NodeState.swift in Sources */,
 				CE8F6DF6242CB26D002CB319 /* RandomiseState.swift in Sources */,
+				CE2AAA7B242CC5D7006ABEFF /* String.swift in Sources */,
 				CE1AE6482408162D00BDA566 /* DesertState.swift in Sources */,
 				CE1AE64A2408166100BDA566 /* GreenState.swift in Sources */,
 			);
