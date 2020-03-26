@@ -5,7 +5,6 @@ import AppKit
     override init() {
         super.init()
         delegate = self
-        UserDefaults.standard.set(false, forKey: "NSFullScreenMenuItemEverywhere")
     }
     
     func applicationShouldTerminateAfterLastWindowClosed(_: NSApplication) -> Bool {

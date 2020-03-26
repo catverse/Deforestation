@@ -67,6 +67,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE8F6DF2242CB07D002CB319 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D6B582407C9CD00946A7C /* PlayState.swift */,
+				CE9D6B562407C5C300946A7C /* StartState.swift */,
+				CE9D6B5F2407CC8A00946A7C /* State.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		CE8F6DF3242CB092002CB319 /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				CE1AE6472408162D00BDA566 /* DesertState.swift */,
+				CE1AE64B2408167100BDA566 /* ForestState.swift */,
+				CE1AE6492408166100BDA566 /* GreenState.swift */,
+				CE1AE63F2408147600BDA566 /* Node.swift */,
+				CE1AE6412408152300BDA566 /* NodeState.swift */,
+				CE1AE645240815F800BDA566 /* PrepareState.swift */,
+				CE1AE643240815DE00BDA566 /* SeaState.swift */,
+			);
+			path = Node;
+			sourceTree = "<group>";
+		};
+		CE8F6DF4242CB0BC002CB319 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D6B632407D1AB00946A7C /* PlayScene.sks */,
+				CE9D6B612407D0A600946A7C /* PlayScene.swift */,
+				CE9D6B5A2407CAB700946A7C /* StartScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
 		CE9D6B342407BC7200946A7C = {
 			isa = PBXGroup;
 			children = (
@@ -83,25 +117,15 @@
 			children = (
 				CE9D6B4C2407BC8700946A7C /* macOS.entitlements */,
 				CE9D6B4B2407BC8700946A7C /* Info.plist */,
-				CE9D6B632407D1AB00946A7C /* PlayScene.sks */,
 				CEF4D8C12407DFB40004FAE9 /* Tiles.sks */,
 				CE9D6B422407BC8700946A7C /* App.swift */,
-				CE1AE6472408162D00BDA566 /* DesertState.swift */,
-				CE1AE64B2408167100BDA566 /* ForestState.swift */,
-				CE1AE6492408166100BDA566 /* GreenState.swift */,
-				CE1AE63F2408147600BDA566 /* Node.swift */,
-				CE1AE6412408152300BDA566 /* NodeState.swift */,
-				CE9D6B612407D0A600946A7C /* PlayScene.swift */,
-				CE9D6B582407C9CD00946A7C /* PlayState.swift */,
-				CE1AE645240815F800BDA566 /* PrepareState.swift */,
-				CE1AE643240815DE00BDA566 /* SeaState.swift */,
-				CE9D6B5A2407CAB700946A7C /* StartScene.swift */,
-				CE9D6B562407C5C300946A7C /* StartState.swift */,
-				CE9D6B5F2407CC8A00946A7C /* State.swift */,
 				CE9D6B542407C33600946A7C /* View.swift */,
 				CE9D6B442407BC8700946A7C /* Window.swift */,
 				CE9D6B462407BC8700946A7C /* Assets.xcassets */,
 				CE9D6B5C2407CB5100946A7C /* Localizable.strings */,
+				CE8F6DF3242CB092002CB319 /* Node */,
+				CE8F6DF4242CB0BC002CB319 /* Scene */,
+				CE8F6DF2242CB07D002CB319 /* State */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
