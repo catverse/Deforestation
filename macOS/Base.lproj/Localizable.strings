@@ -1,2 +1,3 @@
 StartScene.press="Click to start";
 RandomiseState.loading="Loading...";
+PlayState.yours="Your turn";

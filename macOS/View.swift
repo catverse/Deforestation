@@ -22,4 +22,8 @@ final class View: SKView, SKSceneDelegate {
     override func mouseUp(with: NSEvent) {
         (state.currentState as! State).press.insert(with.location(in: scene!), at: 0)
     }
+    
+    override func viewDidEndLiveResize() {
+        (scene as? PlayScene)?.reposition()
+    }
 }

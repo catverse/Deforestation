@@ -4,7 +4,7 @@ final class PlayState: State {
     
     override func didEnter(from: GKState?) {
         super.didEnter(from: from)
-        print("play state")
+        (view.scene as! PlayScene).showMessage(.key("PlayState.yours"))
     }
     
     override func control() {
